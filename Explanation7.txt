@@ -1,0 +1,4 @@
+PROBLEM 7: HTTPROUTER USING A TRIE
+
+Finding the route in a  Trie takes O(c) time comnplexity. The space complexity would be O(n*m) based on the number of path components
+and the length of those components.

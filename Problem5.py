@@ -76,3 +76,4 @@ for word in wordList:
 
 print(MyTrie.find('a').suffixes())
 print(MyTrie.find('f').suffixes())
+print(MyTrie.find('t').suffixes())
