@@ -23,8 +23,8 @@ class TrieNode(object):
 
         else:
             suffixList.append(suffix)
-            suffix = ''
         return suffixList
+
 
         ## Recursive function that collects the suffix for
         ## all complete words below this point
