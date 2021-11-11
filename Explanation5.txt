@@ -1,6 +1,6 @@
 PROBLEM 5: AUTOCOMPLETE WITH TRIES
 
 With a "Suffixes" method, I checked if there were any children for a given prefix, and if there were children, I checked if there were 
-multiple children rather than just one. Depending on those parameters, I built up a an array titled "suffixList" to store all possible
-suffixes from a prefix. The time complexity of the search for a Trie is O(C) and the space complexity is O(N*M) based on the number of
-words and character length of those words. 
+multiple children rather than just one. Depending on those parameters, I built up an array titled "suffixList" to store all possible
+suffixes from a prefix. The time complexity of the search for a Trie is O(n) and the space complexity is O(N*M) based on the number of
+words and character length of those words.

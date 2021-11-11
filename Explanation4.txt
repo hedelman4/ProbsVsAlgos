@@ -1,5 +1,5 @@
 PROBLEM4: DUTCH NATIONAL FLAG PROBLEM
 
 In order to sort an array with elements containing 0,1 or 2 in a single traversal, I either popped a zero and inserted it at the
-beginning of the array, or popped a two and appended it to the end of the array. The space complexity would be O(C) based on the size 
+beginning of the array, or popped a two and appended it to the end of the array. The space complexity would be O(n) based on the size 
 of the array passed through the function.

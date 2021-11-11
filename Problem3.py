@@ -65,3 +65,8 @@ test_case1 = [[4, 6, 2, 5, 9, 8], [964, 852]]
 test_case2 = [[1, 2, 3], [32, 1]]
 test_function(test_case1)
 test_function(test_case2)
+#Edge cases
+test_case3 = [[0,0], [0, 0]]
+test_case4 = [[1, 1, 1, 1, 1, 1, 1], [1111, 111]]
+test_function(test_case3)
+test_function(test_case4)

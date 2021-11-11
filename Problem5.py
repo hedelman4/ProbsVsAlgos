@@ -74,6 +74,16 @@ wordList = [
 for word in wordList:
     MyTrie.insert(word)
 
-print(MyTrie.find('a').suffixes())
-print(MyTrie.find('f').suffixes())
-print(MyTrie.find('t').suffixes())
+def TestCase(char):
+    if MyTrie.find(char):
+        print(MyTrie.find(char).suffixes())
+        MyTrie.find(char).suffixes().clear()
+    else:
+        print(None)
+
+TestCase('a')
+TestCase('f')
+TestCase('t')
+#Edge cases
+TestCase('')
+TestCase('z')
