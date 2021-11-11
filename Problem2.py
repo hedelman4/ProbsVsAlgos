@@ -3,7 +3,7 @@ def rotated_array_search(input_list, number):
     end_index = len(input_list) - 1
     mid_index = (start_index + end_index)//2
 
-    if number < min(input_list) or number > max(input_list):
+    if not input_list or number < min(input_list) or number > max(input_list):
         return -1
 
     else:
@@ -71,3 +71,4 @@ test_function([[6, 7, 8, 1, 2, 3, 4], 8])
 #Edge cases
 test_function([[0],0])
 test_function([[1,1,1,1,1,1,1,1,1,1], 1])
+test_function([[],0])

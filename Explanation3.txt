@@ -2,5 +2,4 @@ PROBLEM 3: REARRANGE ARRAY ELEMENTS
 
 
 In order to assign the largest elements of an array to the largest place value of two separate integers to be added, I used mergesort
-to sort the array in time complexity O(nlog(n)). The space complexity is O(n) based on the size of the array being
-passed through the function.
+to sort the array in time complexity O(nlog(n)). The space complexity is O(n).

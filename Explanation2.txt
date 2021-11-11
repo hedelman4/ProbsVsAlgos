@@ -2,5 +2,4 @@ PROBLEM 2: SEARCH IN A ROTATED SORTED ARRAY
 
 I used a recursive divide and conquer method to locate which part of the array the target number is located, which should require time
 complexity of O(log(n)). Once the section of the array is identified, I use a binary search to locate the index of the target number.
-The binary search would also require time complexity of O(log(n)). The space complexity is O(n) based on the size of
-the array passed through the function. 
+The binary search would also require time complexity of O(log(n)). The space complexity is O(c). 

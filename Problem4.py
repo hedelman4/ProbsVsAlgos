@@ -1,5 +1,8 @@
 def sort_012(input_list):
     index = 0
+    if not input_list:
+        return []
+
     for _ in range(len(input_list)):
         if input_list[index] == 0:
             input_list.insert(0,input_list.pop(index))
@@ -24,3 +27,4 @@ test_function([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2])
 #Edge cases
 test_function([0])
 test_function([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1])
+test_function([])
