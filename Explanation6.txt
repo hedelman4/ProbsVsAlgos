@@ -1,4 +1,4 @@
 PROBLEM 6: MAX AND MIN IN A UNSORTED ARRAY
 
 In a single traversal, my program checks each value to see if it is either the running min or max, and stores the running values
-accordingly. The time complexity is O(n) since each of the elements of the array are traversed. The space complexity is O(c).
+accordingly. The time complexity is O(n) since each of the elements of the array are traversed. The space complexity is O(1).

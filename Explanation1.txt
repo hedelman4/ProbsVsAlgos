@@ -1,4 +1,4 @@
 PROBLEM 1: FINDING THE SQUARE OF AN INTEGER
 
 I used binary search to find the integer square root of a number within that number's factors. This acheives a time complexity of
-O(log(n)). The space complaxity is O(c).
+O(log(n)). The space complaxity is O(1).
