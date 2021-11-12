@@ -4,5 +4,15 @@ I constructed the Trie by splitting a given path by the forward slashes in the p
 I also made the initial string object for the Router class a "default handler" name so that a single "/" character slash would associate
 with the default handler name. 
 
-Finding the route in a  Trie takes O(1) time comnplexity. The space complexity would be O(n*m) based on the number of path components
+Method 'Split Path':
+Splitting a given path requires time complexity of O(n) and space complexity of O(n*m) based on the number of path components
+and the length of those components.
+
+
+Method 'Add Handler':
+Adding a handler takes O(n) time complexity. The space complexity would be O(n*m) based on the number of path components
+and the length of those components.
+
+Method 'Lookup':
+Finding the route in a  Trie takes O(1) time complexity. The space complexity would be O(n*m) based on the number of path components
 and the length of those components.
